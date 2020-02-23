@@ -52,8 +52,32 @@ hr{
       background-color:RGB(110, 72, 74);
     }
     .poem{
-    display:grid;
-    grid-template-columns: 1fr;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .poem_2{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .vertical_phone{
+        width:7px;
+        height: 50px;
+        left: 50%;
+        margin-left: 50%;
+        background-color: orange;
+    }
+    .verticalgrid{
+        display: none;
+    }
+
+    .verticalgrid_2{
+        display:none;
+    }
+
+    hr{
+        display: none;
     }
   }
   
@@ -62,8 +86,35 @@ hr{
     body {
       background-color: RGB(110, 72, 74);
     }
+    .poem_2{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
     .poem{
         display:grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
+
+    .vertical_phone{
+        width:7px;
+        height: 50px;
+        left: 50%;
+        margin-left: 50%;
+        background-color: orange;
+    }
+    .verticalgrid{
+        display: none;
+    }
+
+    .verticalgrid_2{
+        display:none;
+    }
+
+    hr{
+        display: none;
+    }
+    
   }
