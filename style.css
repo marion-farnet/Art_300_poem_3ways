@@ -7,6 +7,17 @@ body {
     text-align: center;
   }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color: orange;
+}
+
+.title{
+    font-family:'Playfair Display';
+}
 hr{
     width:60%;
     margin-right:auto;
@@ -37,7 +48,8 @@ hr{
 
 .poem{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
 }
 
 .poem_2{
@@ -50,6 +62,7 @@ hr{
   @media screen and (max-width: 767px) {
     body {
       background-color:RGB(110, 72, 74);
+      font-size: 15pt;
     }
     .poem{
         display:grid;
@@ -85,12 +98,12 @@ hr{
   @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
       background-color: RGB(110, 72, 74);
+      font-size: 20pt;
     }
     .poem_2{
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-
     }
     .poem{
         display:grid;
